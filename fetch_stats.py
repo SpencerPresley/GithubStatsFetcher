@@ -6,9 +6,9 @@ import os
 load_dotenv()
 
 # Instructions:
-# 31) Generate a GitHub access token
+# 1) Generate a GitHub access token
 # 2) Make a '.env' file
-
+# 3) In .env do: GH_ACCESS_TOKEN={your access token here}
 headers = {
     'Authorization': f'token {os.getenv("GH_ACCESS_TOKEN")}',
     'Accept': 'application/vnd.github.v3+json',
