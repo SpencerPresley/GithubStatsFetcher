@@ -66,7 +66,7 @@ def svg_img(lang_stats):
     with open("language_stats.svg", "w") as file:
         file.write(svg_template)
     print("SVG image generated.")
-# Replace 'your_username' with your GitHub username
+# Replace 'SpencerPresley' with your GitHub username
 if __name__ == '__main__':
     calculate_language_stats('SpencerPresley')
     
