@@ -5,7 +5,10 @@ import os
 
 load_dotenv()
 
-# Replace 'YOUR_GITHUB_TOKEN' with your actual GitHub token
+# Instructions:
+# 31) Generate a GitHub access token
+# 2) Make a '.env' file
+
 headers = {
     'Authorization': f'token {os.getenv("GH_ACCESS_TOKEN")}',
     'Accept': 'application/vnd.github.v3+json',
